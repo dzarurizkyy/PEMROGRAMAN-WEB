@@ -1,0 +1,34 @@
+<!-- Dzaru Rizky Fathan Fortuna (21081010283) -->
+<!-- Pemrograman Web A081 -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Judul halaman  -->
+        <title>Belajar HTML5</title>
+        <!-- Internal Javascript -->
+        <script type="text/javascript">
+            function draw() {
+                var canvas = document.getElementById('belajar');
+                if(canvas.getContext) {
+                    // Gambar bujur sangkar pertama
+                    var ctx = canvas.getContext('2d');
+                    // Parameter warna
+                    ctx.fillStyle = "rgb(40, 0, 0)";
+                    // Parameter titik koordinat
+                    ctx.fillRect (90, 20, 60, 60);
+                }
+            }
+        </script>
+        <!-- Internal CSS -->
+        <style type="text/css">
+            canvas {
+                border: 2px solid red;
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body onload="draw();">
+        <canvas id="belajar" width="175" height="175"></canvas>
+    </body>
+</html>
