@@ -1,0 +1,536 @@
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    margin: 0px;
+    background-color: #E7E7E7;
+}
+
+header {
+    display: block;
+}
+
+.text-header {
+    color: white;
+}
+
+#img-header {
+    width: 100%;
+    height: 300px;
+}
+#title-header {
+    position: absolute;
+    top: 10px;
+    left: 470px;
+    font-size: 50px;
+    font-family: 'Poppins ExtraBold';
+}
+
+#subtitle-header {
+    position: absolute;
+    top: 90px;
+    left: 500px;
+    font-size: 18px;
+    font-family: 'Poppins SemiBold';
+}
+
+section {
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 180px;
+    left: 96px;
+    width: 1100px;
+    height: 370px;
+    box-shadow: 0 5px 17px 5px rgba(0, 0, 0, 10%);
+}
+
+#photo-profile {
+    display: inline;
+    width: 350px;
+    position: absolute;
+    left: -4px; 
+}
+
+#shape1-section {
+    display: block;
+}
+
+#img1-section {
+    display: inline;
+    position: absolute;
+    left: 370px;
+    top: 30px;
+    width: 140px;
+}
+
+#txt1-section {
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #FFFFFF;
+    position: absolute;
+    left: 398px;
+    top: 19px;
+    font-size: 14px;
+}
+
+#txt2-section {
+    color: #C58940;
+    position: absolute;
+    left: 370px;
+    top: 44px;
+    font-family: 'Poppins ExtraBold';
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#txt3-section {
+    color: #53524A;
+    position: absolute;
+    left: 370px;
+    top: 95px;
+    font-family: 'Poppins SemiBold';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#line-section {
+    position: absolute;
+    width: 710px;
+    height: 2px;
+    background-color: #E5BA73;
+    left: 370px;
+    top: 144px 
+}
+
+th {
+    text-align: left;
+}
+
+table {
+    position: absolute;
+    left: 367px;
+    top: 160px;
+    font-size: 13px;
+
+}
+
+th, td {
+    color: #484646;
+}
+
+th {
+    font-weight: 700;
+}
+
+td {
+    font-family: 'Poppins SemiBold';
+}
+
+#shape2-section {
+    position: absolute;
+    background-color: #C58940;
+    top: 312px;
+    left: 343px;
+    width: 757px;
+    height: 60px;
+}
+
+#icon1-section {
+    position: absolute;
+    width: 22px;
+    left: 36px;
+    top: 20px;
+}
+
+#icon2-section {
+    position: absolute;
+    width: 24px;
+    left: 130px;
+    top: 21px;
+}
+
+#icon3-section {
+    position: absolute;
+    width: 21px;
+    left: 230px;
+    top: 22px;
+}
+
+#icon4-section {
+    position: absolute;
+    width: 24px;
+    left: 326px;
+    top: 20px;
+}
+
+#icon5-section {
+    position: absolute;
+    width: 28px;
+    left: 422px;
+    top: 19px;
+}
+
+#icon6-section {
+    position: absolute;
+    width: 22px;
+    left: 518px;
+    top: 20px;
+}
+
+.title-article {
+    color: #C58940;
+    font-weight: 800;
+    position: absolute;
+}
+
+#title1-article {
+    top: 560px;
+    left: 552px;
+}
+
+article {
+    position: absolute;
+    left: 96px;
+    width: 1100px;
+}
+
+#about-me {
+    background-color: #FFFFFF;
+    top: 640px;
+    height: 336px;
+}
+
+#bodytext-article {
+    margin-top: 52px;
+    margin-left: 90px;
+    margin-right: 560px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #BDBDBD;
+    line-height: 24px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #E7E7E7;
+}
+
+progress::-moz-progress-bar {
+    background-color: #E7E7E7;
+}
+
+progress::-webkit-progress-value {
+    background-color: #C58940;
+}
+
+progress::-moz-progress-bar {
+    background-color: #C58940;
+}
+
+.skill-name {
+    font-family: "Poppins SemiBold";
+    color: #484646;
+    font-size: 17px;
+    position: absolute;
+    left: 600px;
+}
+
+.skill-score {
+    position: absolute;
+    left: 600px;
+    width: 456px;
+    height: 5px;
+    border-radius: 1000px;
+    overflow: hidden;
+}
+
+.skill-percent {
+    font-family: "Poppins SemiBold";
+    color: #484646;
+    font-size: 17px;
+    position: absolute;
+    left: 1010px;
+}
+
+#skill1-name, #skill1-percent {
+    top: 34px;
+}
+
+#skill1-score {
+    top: 84px;
+}
+
+#skill2-name, #skill2-percent {
+    top: 90px;
+}
+
+#skill2-score {
+    top: 140px;
+}
+
+#skill3-name, #skill3-percent {
+    top: 150px;
+}
+
+#skill3-score {
+    top: 200px;
+}
+
+#skill4-name, #skill4-percent {
+    top: 212px;
+}
+
+#skill4-score {
+    top: 262px;
+}
+
+#title2-article {
+    top: 1000px;
+    left: 573px;    
+}
+
+#img1-article {
+    position: absolute;
+    top: 790px;
+    left: 546px;
+    height: 786px;
+    width: 8px;
+}
+
+/* TK */
+.circle-article {
+    width: 18px;
+    height: 18px;
+    border-radius: 20px;
+    left: 541px;
+    position: absolute;
+    background-color: #C58940;
+}
+
+#circle1-article {
+    top: 834px;
+}
+
+.shape1-school {
+    position: absolute;
+    width: 524px;
+}
+
+#shape1-article2 {
+    top: 800px;
+    left: 0px;
+}
+
+.title-school {
+    position: absolute;
+    color: #C58940;
+    font-size: 26px;
+    font-family: 'Poppins SemiBold'
+}
+
+#title1-school {
+    top: 812px;
+    left: 30px;
+}
+
+.name-school {
+    position: absolute;
+    color: #484646;
+    font-size: 18px;
+    font-family: 'Poppins Semibold';
+}
+
+#name1-school {
+    top: 850px;
+    left: 33px;
+}
+
+.shape2-school {
+    position: absolute;
+    transform: scaleY(-1);
+    width: 150px;
+    height: 44px;
+}
+
+#shape2-article2 {
+    left: 34px;
+    top: 918px;
+}
+
+.year-school {
+    position: absolute;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+#year1-school {
+    top: 917px;
+    left: 64px;
+}
+
+/* SD */
+#shape3-article2 {
+    top: 878px;
+    left: 577px;
+    transform: ScaleX(-1);
+}
+
+#circle2-article {
+    top: 910px;
+}
+
+#title2-school {
+    top: 890px;
+    left: 630px;
+}
+
+#name2-school {
+    top: 928px;
+    left: 630px;
+}
+
+#shape4-article2 {
+    top: 995px;
+    left: 630px;
+}
+
+#year2-school {
+    top: 994px;
+    left: 662px;
+}
+
+/* SMP */
+#circle3-article {
+    top: 1070px;
+}
+
+#shape5-article2 {
+    top: 1036px;
+    left: 0px;
+}
+
+#title3-school {
+    top: 1048px;
+    left: 30px;
+}
+
+#name3-school {
+    top: 1086px;
+    left: 30px;
+}
+
+#shape6-article2 {
+    position: absolute;
+    top: 1153px;
+    left: 30px;
+}
+
+#year3-school {
+    top: 1152px;
+    left: 64px;
+}
+
+/* SMA */
+#circle4-article {
+    top: 1146px;
+}
+
+#shape7-article2 {
+    top: 1114px;
+    left: 580px;
+    transform: scaleX(-1);   
+}
+
+#title4-school {
+    top: 1126px;
+    left: 630px; 
+}
+
+#name4-school {
+    left: 630px;
+    top: 1164px;   
+}
+
+#shape8-article2 {
+    left: 630px;
+    top: 1231px;
+}
+
+#year4-school {
+    left: 664px;
+    top: 1230px
+}
+
+/* Kuliah */
+#circle5-article {
+    top: 1316px;
+}
+
+#shape9-article2 {
+    top: 1280px;
+    left: 0px;
+}
+
+#title5-school {
+    top: 1292px;
+    left: 30px;   
+}
+
+#name5-school {
+    top: 1330px;
+    left: 32px;
+}
+
+#shape10-article2 {
+    top: 1397px;
+    left: 32px;
+}
+
+#year5-school {
+    top: 1396px;
+    left: 68px;
+}
+
+/* Bootcamp */
+#circle6-article {
+    top: 1392px;
+}
+
+#shape11-article2 {
+    top: 1360px;
+    left: 580px;
+    transform:scaleX(-1);
+}
+
+#title6-school {
+    top: 1372px;
+    left: 630px;
+}
+
+#name6-school {
+    top: 1410px;
+    left: 630px;
+}
+
+#shape12-article2 {
+    left: 630px;
+    top: 1480px;
+}
+
+#year6-school {
+    left: 686px;
+    top: 1478px;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #C58940;
+    position: absolute;
+    top: 1980px;
+}
+
+#title1-school:hover, #title2-school:hover, #title3-school:hover, #title4-school:hover, #title5-school:hover, #title6-school:hover {
+    color: #DAAD63;
+    cursor: pointer;
+}
