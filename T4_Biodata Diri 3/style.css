@@ -249,7 +249,6 @@ progress::-moz-progress-value     {background-color: #C58940;}
 
 .education-shape2 {
     width: 524px;
-    transform: ScaleX(-1);
 }
 
 .education-name, .education-school {
@@ -285,7 +284,7 @@ progress::-moz-progress-value     {background-color: #C58940;}
 #education-name-1, #education-name-3, #education-name-5, #education-school-1, #education-school-3, #education-school-5 {left: 30px;}
 #education-name-2, #education-name-4, #education-name-6, #education-school-2, #education-school-4, #education-school-6 {left: 630px;}
 #education-shape2-1, #education-shape2-3, #education-shape2-5 {left: 0px;} 
-#education-shape2-2, #education-shape2-4, #education-shape2-6 {left: 577px;}
+#education-shape2-2, #education-shape2-4, #education-shape2-6 {left: 577px; transform: ScaleX(-1);}
 #education-shape1-1, #education-shape1-3, #education-shape1-5 {left: 34px;} 
 #education-shape1-2, #education-shape1-4, #education-shape1-6 {left: 634px;}
 #education-period-1, #education-period-3 {left: 64px;}
