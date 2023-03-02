@@ -1,0 +1,349 @@
+* {
+    font-family: 'Poppins', 'Roboto' ,'Times New Roman';
+}
+
+body {
+    margin: 0px;
+    background-color: #E7E7E7;
+}
+
+/* Header */
+header {
+    position: relative;
+    display: inline-block;
+}
+
+#header-background {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.header-text {
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#header-title {
+    top: 10%;
+    font-size: 50px;
+    font-family: 'Poppins ExtraBold';
+}
+
+#header-subtitle {
+    top: 22%;
+    font-size: 22px;
+    font-family: 'Poppins SemiBold';
+}
+
+/* Biography */
+section, table, #photo-profile, #biography-shape-1, #biography-text-1, #biography-text-2, #biography-text-3, #biography-line-1 {
+    position: absolute;
+}
+
+section {
+    width: 1100px;
+    height: 370px;
+    top: 180px;
+    left: 84px;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 17px 5px rgba(0, 0, 0, 10%);
+}
+
+#photo-profile, #biography-shape-1 {
+    display: inline;
+}
+
+#photo-profile {
+    width: 350px;
+    left: -4px; 
+}
+
+#biography-container-1 {
+    display: block;
+}
+
+#biography-shape-1 {
+    width: 140px;
+    top: 30px;
+    left: 370px;
+}
+
+#biography-text-1, th {
+    font-weight: 700;
+}
+
+#biography-text-2, #biography-text-3, #biography-line-1 {
+    left: 370px;
+    font-weight: 600;
+}
+
+#biography-text-3, td {
+    font-family: 'Poppins SemiBold';
+}
+
+#biography-text-1 {
+    top: 19px;
+    left: 398px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+#biography-text-2 {
+    top: 44px;
+    font-size: 24px;
+    font-family: 'Poppins ExtraBold';
+    color: #C58940;
+}
+
+#biography-text-3 {
+    top: 95px;
+    font-size: 16px;
+    color: #53524A;
+}
+
+#biography-line-1 {
+    width: 710px;
+    height: 2.2px;
+    top: 144px;
+    border-radius: 10px;
+    background-color: #E5BA73;
+}
+
+table {
+    top: 160px;
+    left: 367px;
+    font-size: 13px;
+
+}
+
+th, td {
+    text-align: left;
+    color: #484646
+}
+
+#biography-card-1 {
+    width: 757px;
+    height: 54px;
+    top: 317px;
+    left: 343px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #C58940;
+}
+
+#biography-card-1 img  {margin-right: 70px;}
+#biography-card-1 a    {text-decoration: none;}
+#biography-icon-1      {margin-left: 32px;}
+
+#biography-icon-2, #biography-icon-3  {width: 22px;}
+#biography-icon-4                     {width: 26px;}
+#biography-icon-5                     {width: 30px;}
+#biography-icon-1, #biography-icon-6  {width: 24px;}
+
+/* Section Title */
+article, .article-title {
+    position: absolute;
+} 
+
+article {
+    left: 84px;
+    width: 1100px;
+}
+
+.article-title {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    color: #C58940;
+}
+
+/* About Me */
+#aboutme-title {
+    top: 102%;
+}
+
+#aboutme-container-1 {
+    top: 686px;
+    height: 336px;
+    background-color: #FFFFFF;
+}
+
+#aboutme-container-2 {
+    margin-top: 52px;
+    margin-left: 90px;
+    margin-right: 560px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #BDBDBD;
+}
+
+.aboutme-skill, .aboutme-percent, .aboutme-score {
+    position: absolute;
+}
+
+.aboutme-skill, .aboutme-percent {
+    font-family: "Poppins SemiBold";
+    font-size: 17px;
+    color: #484646;
+}
+
+.aboutme-skill, .aboutme-score {
+    left: 600px;
+}
+
+progress::-webkit-progress-bar    {background-color: #E7E7E7;}
+progress::-moz-progress-bar       {background-color: #E7E7E7;}
+progress::-webkit-progress-value  {background-color: #C58940;} 
+progress::-moz-progress-value     {background-color: #C58940;}
+
+.aboutme-score {
+    width: 456px;
+    height: 5px;
+    border-radius: 1000px;
+    overflow: hidden;
+}
+
+.aboutme-percent {
+    left: 1010px;
+}
+
+#aboutme-skill-1, #aboutme-percent-1 {top: 34px;}
+#aboutme-skill-2, #aboutme-percent-2 {top: 90px;}
+#aboutme-skill-3, #aboutme-percent-3 {top: 150px;}
+#aboutme-skill-4, #aboutme-percent-4 {top: 212px;}
+#aboutme-score-1 {top: 84px;}
+#aboutme-score-2 {top: 140px;}
+#aboutme-score-3 {top: 200px;}
+#aboutme-score-4 {top: 262px;}
+
+/* Education */
+#education-title {
+    top: 184%;
+}
+
+#education-line-1, .education-circle, .education-shape2, .education-name, .education-school, .education-shape1, .education-period {
+    position: absolute;
+}
+
+#education-line-1 {
+    width: 8px;
+    height: 786px;
+    top: 1130px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.education-circle {
+    width: 18px;
+    height: 18px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background-color: #C58940;
+}
+
+.education-shape2 {
+    width: 524px;
+    transform: ScaleX(-1);
+}
+
+.education-name, .education-school {
+    font-family: 'Poppins SemiBold';
+}
+
+.education-name {
+    font-size: 26px;
+    color: #C58940;
+}
+
+.education-school {
+    font-size: 18px;
+    color: #484646;
+}
+
+.education-shape1 {
+    width: 150px;
+    height: 44px;
+    transform: scaleY(-1);
+}
+
+.education-period {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+#education-name-1:hover, #education-name-2:hover, #education-name-3:hover, #education-name-4:hover, #education-name-5:hover, #education-name-6:hover {
+    color: #DAAD63;
+    cursor: pointer;
+}
+
+#education-name-1, #education-name-3, #education-name-5, #education-school-1, #education-school-3, #education-school-5 {left: 30px;}
+#education-name-2, #education-name-4, #education-name-6, #education-school-2, #education-school-4, #education-school-6 {left: 630px;}
+#education-shape2-1, #education-shape2-3, #education-shape2-5 {left: 0px;} 
+#education-shape2-2, #education-shape2-4, #education-shape2-6 {left: 577px;}
+#education-shape1-1, #education-shape1-3, #education-shape1-5 {left: 34px;} 
+#education-shape1-2, #education-shape1-4, #education-shape1-6 {left: 634px;}
+#education-period-1, #education-period-3 {left: 64px;}
+#education-period-2, #education-period-4 {left: 666px;}
+
+/* TK */
+#education-circle-1 {top: 834px;}
+#education-shape2-1 {top: 800px;}
+#education-name-1   {top: 812px;}
+#education-school-1 {top: 850px;}
+#education-shape1-1 {top: 918px;}
+#education-period-1 {top: 917px;}
+
+/* SD */
+#education-circle-2 {top: 910px;}
+#education-shape2-2 {top: 878px;}
+#education-name-2   {top: 890px;}
+#education-school-2 {top: 928px;}
+#education-shape1-2 {top: 995px;}
+#education-period-2 {top: 994px;}
+
+/* SMP */
+#education-circle-3 {top: 1070px;}
+#education-shape2-3 {top: 1036px;}
+#education-name-3   {top: 1048px;}
+#education-school-3 {top: 1086px;}
+#education-shape1-3 {top: 1153px;}
+#education-period-3 {top: 1152px;}
+
+/* SMA */
+#education-circle-4 {top: 1146px;}
+#education-shape2-4 {top: 1114px;}
+#education-name-4   {top: 1126px;}
+#education-school-4 {top: 1164px;}
+#education-shape1-4 {top: 1231px;}
+#education-period-4 {top: 1230px}
+
+/* Kuliah */
+#education-circle-5 {top: 1316px;}
+#education-shape2-5 {top: 1280px;}
+#education-name-5   {top: 1292px;}
+#education-school-5 {top: 1330px;}
+#education-shape1-5 {top: 1397px;}
+#education-period-5 {top: 1396px; left: 68px;}
+
+/* Bootcamp */
+#education-circle-6 {top: 1392px;}
+#education-shape2-6 {top: 1360px;}
+#education-name-6   {top: 1372px;}
+#education-school-6 {top: 1410px;}
+#education-shape1-6 {top: 1480px;}
+#education-period-6 {top: 1478px; left: 690px;}
+
+/* Footer */
+footer {
+    width: 1260px;
+    height: 60px;
+    position: absolute;
+    top: 2140px;
+    background-color: #C58940;
+}
